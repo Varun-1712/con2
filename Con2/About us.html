@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="./Aboutus.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans+Text:400&amp;text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93">
+    <title>About us</title>
+</head>
+
+<body>
+    <div class="Header">
+        <!-- Logo -->
+        <div class="anims">
+       <div class="InnerHeader">
+           <div>   
+               
+               <a href="./index.html"><img class="logo" src="https://www.ppsu.ac.in/img/logo.png" alt=""></a>
+           </div>
+          <!-- Navigators -->
+           <div class="navi"> 
+                   <a class="temp"   href="./SPEAKERS.html"  >SPEAKERS</a>  
+                   <a href="./index.html">CONFERENCE TRACKS</a>  
+                   <a href="./Tickets//index.html">TICKETS</a>  
+                   <a href="./About us.html">ABOUT US</a>  
+                   <a class="reg">REGISTER</a>
+           </div>
+           <!-- Ham Burger -->
+           <div class="ham">
+               <span></span>
+               <span></span>
+               <span></span>
+           </div>
+         </div>
+       </div>
+   </div>
+    <div class="header_section">
+        <div class="innerbox">
+            <p></p>
+            <h1 id="head1">About us</h1>
+            <hr id="hrline">
+            <h3>Know more about International Conference on <br>Industry Institutional Futuristic Research in Engineering.</h3>
+        </div>
+
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="content">
+                <div class="article">
+                    <h3>The 1st International Conference on Industry Institutional Futuristic Research in Engineering (I2FRE) is to be held at School of Engineering, P P Savani University (PPSU), Surat, India on January 08, 2022.</h3>
+                <p>The conference topic is multifaceted which covers the applications of modern techniques and technologies in Engineering Sciences. This conference will bring multidisciplinary work in a single platform by integrating the enhanced technologies of various fields. 
+This will encourage graduates, academicians, researchers, scientists and industrialists to discuss in common arena about the applications of technology which demands to meet for present society. The conference will bring an opportunity to students, academicians, research scholars, scientists and industry personnel to contribute their work in the domain of chemical, civil, mechanical, information technology and computer science. Presented and accepted papers will be published in SCI-indexed Journals/ Scopus indexed Journals. Conference will be conducted in both Online as well as Offline Mode.</p>
+                    <div class="button">
+                        <a href="../../index.html">HOME</a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="conference.jpeg">
+            </div>
+            <div class="social">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        const Query = (Q) =>{
+    return document.querySelector(Q)
+}
+let ham = Query('.ham');
+let Navi = Query('.navi');
+ham.addEventListener("click",()=>{
+    if(!Navi.classList.contains('NaviActive')){
+        Navi.classList.toggle('NaviActive')
+        
+    }
+    else{
+        Navi.classList.add('NaviActiveDown')
+       setTimeout(()=>{
+        Navi.classList.toggle('NaviActive')
+        Navi.classList.remove('NaviActiveDown')
+       },500);
+        
+    }
+})
+    </script>
+</body>
+</html>

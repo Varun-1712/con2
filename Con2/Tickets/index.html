@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        *{
+            font-family: Muli,sans-serif;
+        }
+    </style>
+    
+  <div class="Header">
+    <!-- Logo -->
+    <div class="anims">
+   <div class="InnerHeader">
+       <div>   
+           
+         <a href="../index.html">  <img width="100" style="width: 130px!important;border-radius:0px;" class="logo" src="https://www.ppsu.ac.in/img/logo.png" alt=""></a>
+       </div>
+      <!-- Navigators -->
+       <div class="navi"> 
+               <a style="margin : 12px;font-family: Raleway, sans-serif!important;"  href="../SPEAKERS.html"   >SPEAKERS</a>  
+               <a style="margin : 12px;font-family: Raleway, sans-serif!important;" href="./index.html" >CONFERENCE TRACKS</a>  
+               <a style="margin : 12px;font-family: Raleway, sans-serif!important;" href="../Tickets/index.html">TICKETS</a>  
+               <a style="margin : 12px;font-family: Raleway, sans-serif!important;" href="../About us.html">ABOUT US</a>  
+               <a style="margin : 12px;font-family: Raleway, sans-serif!important;" class="reg">REGISTER</a>
+       </div>
+       <!-- Ham Burger -->
+       <div class="ham">
+           <span></span>
+           <span></span>
+           <span></span>
+       </div>
+     </div>
+   </div>
+</div>
+    <!-- navbar ends -->
+    <div class="header_section">
+        <div class="innerbox">
+            <p>TICKETS</p>
+            <h1 id="head1">Tickets Pricing</h1>
+            <hr id="hrline">
+            <h3>All the types of tickets we have for this Conference.</h3>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="card card1">
+            <div class="container">
+                <img src="img1.jpg" alt="las vegas">
+            </div>
+            <div class="details">
+                <h3>Conference 1 </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam
+                    adipisci exercitationem.</p>
+                <div class="btn1">
+                    <a href="#">Register Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="card card2">
+            <div class="container">
+                <img src="img2.jpg" alt="New York">
+            </div>
+            <div class="details">
+                <h3>Conference 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam
+                    adipisci exercitationem.</p>
+                <div class="btn2">
+                    <a href="#">Register Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="card card3">
+            <div class="container">
+                <img src="img3.jpg" alt="Singapore">
+            </div>
+            <div class="details">
+                <h3>Conference 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam
+                    adipisci exercitationem.</p>
+                <div class="btn3">
+                    <a href="#">Register Now</a>
+                </div>
+
+            </div>
+        </div>
+        <script>
+            const Query = (Q) =>{
+    return document.querySelector(Q)
+}
+let ham = Query('.ham');
+let Navi = Query('.navi');
+ham.addEventListener("click",()=>{
+    if(!Navi.classList.contains('NaviActive')){
+        Navi.classList.toggle('NaviActive')
+        
+    }
+    else{
+        Navi.classList.add('NaviActiveDown')
+       setTimeout(()=>{
+        Navi.classList.toggle('NaviActive')
+        Navi.classList.remove('NaviActiveDown')
+       },500);
+        
+    }
+})
+        </script>
+        <!-- <div class="reg-button">
+    <a href ="#" target="_blank">REGISTER TODAY </a>
+  </div> -->
+    </div>
+
+</body>
+
+</html>
