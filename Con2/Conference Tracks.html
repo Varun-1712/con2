@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./style1.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Conference Tracks</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+<style>
+
+  body{
+    background-color:#4e2416 ;
+  }
+  .carousel-inner{
+    padding: 20%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background-color: #4e2416;
+    
+  }
+  .image-anime{
+    height:100%;
+    width: 100%;
+    padding: 20%;
+    padding-top: 15%;
+    padding-top: 3%;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
+  span{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  
+    font-family: Raleway, sans-serif;
+    background-color: #4e2416;
+    color: #fff;
+    font-size: 3vw;
+    line-height: 55px;
+    font-weight: 900;
+   }
+   .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 3vw;
+    height: 3vw;
+    
+   }
+   
+
+   
+
+
+
+   * {
+  box-sizing: border-box;
+  font-family: Muli,sans-serif;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img {
+  border-radius: 8px;
+  
+}
+#head1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Raleway, sans-serif;
+    color: #fff;
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 900;
+}
+h6 {
+  font-size: 10px;
+}
+h5 {
+  font-size: 20px;
+}
+.Header{
+  z-index: 2;
+}
+.carousel-caption {
+    display: none;
+  }
+
+  #carouselExampleCaptions1{
+    padding: 10px;
+  }
+
+@media (min-width: 1300px){
+  .carousel-caption {
+    display: block;
+  }
+}
+
+
+@media (max-width: 1030px ){
+    .image-anime{
+ 
+    padding: 10%;
+    padding-bottom: 12%;
+    padding-top: 8%;
+  }
+    .carousel-indicators{
+      display: none;
+    }
+
+  span{
+  
+    font-size: 5vw;
+    
+   }
+
+    
+}
+@media (max-width: 500px){
+  .image-anime{
+ 
+    padding: 2%;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+}
+
+
+ 
+ 
+
+</style>
+</head>
+<body>
+  <div class="Header">
+    <!-- Logo -->
+    <div class="anims">
+   <div class="InnerHeader">
+       <div>   
+           
+        <a href="./index.html"><img class="logo" src="https://www.ppsu.ac.in/img/logo.png" alt=""></a>
+        <!-- <br> -->
+
+       </div>
+      <!-- Navigators -->
+       <div class="navi"> 
+               <a style="padding: 0;" href="./SPEAKERS.html"     >SPEAKERS</a>  
+               <a style="padding: 0;" href="./index.html" >CONFERENCE TRACKS</a>  
+               <a style="padding: 0;" href="./Tickets/index.html">TICKETS</a>  
+               <a style="padding: 0;" href="./contact.css" >ABOUT US</a>  
+               <a style="padding: 0;" href="./" class="reg">REGISTER</a>
+       </div>
+       <!-- Ham Burger -->
+       <div class="ham">
+           <span></span>
+           <span></span>
+           <span></span>
+       </div>
+     </div>
+   </div>
+</div>
+    <div class="header_section">
+        <div class="innerbox">
+            <!-- <p style="color: black">Speakers</p> -->
+            <h1 id="head1" style="color: black">Conference Tracks</h1>
+            <hr id="hrline">
+            <h3 style="color: black">All topics discuss in Conference</h3>
+        </div>
+
+    </div>
+    
+<br>
+  <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
+    <center><span>Computer Engineering<span></center>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="photos\computer\data science\dataScience.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <br><br>
+          <h5>Data Science</h5>
+           <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\computer\deep leaning\deeplearning.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Deep Learning</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\computer\image processing\image_processing.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Image Processing</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\computer\machine learning\machine_learning.jpeg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Machine Learning</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\computer\natural network processing\natural_processing.png" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Natural Language Processing</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\computer\data text and web mining\data text and web mining.jpeg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Data, Text and Web Mining</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br>
+
+  <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+    <center><span>Information Technology<span></center>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="photos\IT\artificial intelligence\artificial-intelligence.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <br><br>
+          <h5>Artificial Intelligence</h5>
+           <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\IT\data-analytics\data-analytics.png" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Data Analytics</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\IT\internet of things\internet of things.jpeg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Internet of Things</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\IT\human-computer-interaction\human-computer-interaction.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Human Computer Interaction</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\IT\information retrieval\information retrieval.png" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Information Retrieval</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="C:\Users\Varun\Desktop\mainWEB\photos\IT\soft computing\soft-computing.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Soft Computing</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br>
+
+  <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
+    <center><span>Chemical Engineering<span></center>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="photos\Chemical\advance chemical engineering\advance.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <br><br>
+          <h5>Advance Chemical Engineering</h5>
+           <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\Chemical\biochemical science and engineering\biotechnology.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Biochemical Science and Engineering</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\Chemical\carbon, polymer  and composite\carbon.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Carbon, Polymer and Composite</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\Chemical\chemistry and environment\chemistry and environment.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Chemistry and Environment</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\Chemical\energy\energy.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Energy</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\Chemical\material science and engineering\Materials-Sciences_.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Material Science and Engineering</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br>
+
+  <div id="carouselExampleCaptions4" class="carousel slide" data-bs-ride="carousel">
+    <center><span>Mechanical Engineering<span></center>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="photos\mechanical\advanced manufacturing\advanced_manufacturing.jpeg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <br><br>
+          <h5>Advanced Manufacturing</h5>
+           <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\mechanical\al  ml  material processing\AI-and-ML-in-Manufacturing.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>AI/ML material processing</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\mechanical\cad cae  cam\cad-cam-cae.png" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>CAD, CAE & CAM</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\mechanical\fluid engineering\fluid.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Fluids Engineering</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\mechanical\heat tranfer and thermal\heat.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Heat transfer and Thermal engineering</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\mechanical\tribiology and relibility science\reliability.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Tribology and Reliability Science </h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br>
+
+  <div id="carouselExampleCaptions5" class="carousel slide" data-bs-ride="carousel">
+    <center><span>Civil Engineering<span></center>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="photos\civil\geo environmental engineering\environmennt engineering.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <br><br>
+          <h5>Geo environmental Engineering</h5>
+           <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\civil\gis remote sensing\gis.png" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>GIS/Remote Sensing</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\civil\infrastructural bridge engineering\bridge.jfif" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Infrastructural & Bridge Engineering</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\civil\inteligent transortation system\inteligent transport.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Intelligent Transportation Systems</h5>
+          <p>Some representative placeholder content for t/he second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\civil\substainable concrete\concrete.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Sustainable Concrete</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\civil\substainable urban enginnering\urbon engineering.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Sustainable Urban Engineering </h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photos\civil\water  waste water  treatment\water managment.jpg" class="image-anime" alt="...">
+        <div class="carousel-caption ">
+          <h5>Water & Waste Water Treatment</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  
+</body>
+</html>
